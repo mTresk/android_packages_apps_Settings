@@ -49,4 +49,8 @@
 
     <string name="select_sim_for_sms">Select a SIM for SMS</string>
 
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Reset stats</string>
+    <string name="battery_stats_message">Battery history stats are going to be reset</string>
+    <string name="ok_string">Ok</string>
 </resources>
