@@ -39,6 +39,25 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+            android:key="ambient_display_battery_status"
+            android:title="@string/ambient_display_show_battery_cat">
+
+        <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+            android:key="ambient_display_show_battery"
+            android:title="@string/ambient_display_show_battery_icon"
+            android:summary="@string/ambient_display_show_battery_icon_summary"
+            android:defaultValue="true"/>
+
+        <com.liquid.liquidlounge.preferences.SystemSettingSwitchPreference
+            android:key="ambient_display_show_battery_text"
+            android:title="@string/ambient_display_show_battery_percent"
+            android:summary="@string/ambient_display_show_battery_percent_summary"
+            android:dependency="ambient_display_show_battery"
+            android:defaultValue="true"/>
+
+    </PreferenceCategory>
+
     <PreferenceCategory>
 
         <SwitchPreference
@@ -54,4 +73,5 @@
             android:persistent="false" />
 
     </PreferenceCategory>
+
 </PreferenceScreen>
