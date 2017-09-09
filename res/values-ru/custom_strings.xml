@@ -108,6 +108,9 @@
   <!-- Scramble PIN layout when unlocking -->
   <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
   <string name="unlock_scramble_pin_layout_summary">Перемещать кнопки ввода PIN-кода в случайном порядке</string>
+  <!-- Quick unlock -->
+  <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+  <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе правильного PIN/пароля</string>
   <!-- Manual provisioning support -->
   <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">включена</string>
