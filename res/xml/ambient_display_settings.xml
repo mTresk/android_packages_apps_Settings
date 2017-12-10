@@ -63,7 +63,14 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory>
+    <PreferenceCategory
+            android:title="@string/ambient_display_category_other">
+
+        <SwitchPreference
+            android:key="ambient_doze_auto_brightness"
+            android:title="@string/ambient_doze_auto_brightness_title"
+            android:summary="@string/ambient_doze_auto_brightness_summary" />
+
 
         <ListPreference
             android:key="force_ambient_for_media"
