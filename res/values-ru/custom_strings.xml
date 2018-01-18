@@ -66,4 +66,12 @@
   <string name="security_settings_fingerprint_sensor_location_left">на левом торце</string>
   <string name="security_settings_fingerprint_sensor_location_right">на правом торце</string>
   <string name="screenshot_shutter_sound_title">Звук скриншота</string>
+  
+  <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
+  <string name="increasing_ring_ramp_up_title">Время увеличения</string>
+
+  <string name="ramp_up_time_ten">10c</string>
+  <string name="ramp_up_time_twenty">20c</string>
+  <string name="ramp_up_time_thirty">30c</string>
+  <string name="ramp_up_time_sixty">60c</string>
 </resources>
