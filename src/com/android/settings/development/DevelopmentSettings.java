@@ -69,7 +69,6 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
-import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceGroup;
 import android.support.v7.preference.PreferenceScreen;
 import android.telephony.TelephonyManager;
@@ -516,10 +515,7 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
         mBluetoothDisableAbsVolume = findAndInitSwitchPref(BLUETOOTH_DISABLE_ABSOLUTE_VOLUME_KEY);
         mBluetoothEnableInbandRinging = findAndInitSwitchPref(BLUETOOTH_ENABLE_INBAND_RINGING_KEY);
         if (!BluetoothHeadset.isInbandRingingSupported(getContext())) {
-            PreferenceCategory category = (PreferenceCategory) findPreference("debug_networking_category");
-            if (category != null) {
-                category.removePreference(mBluetoothEnableInbandRinging);
-            }
+            removePreference(mBluetoothEnableInbandRinging);
             mBluetoothEnableInbandRinging = null;
         }
 
