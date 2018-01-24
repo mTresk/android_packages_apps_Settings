@@ -75,7 +75,34 @@
   <string name="ramp_up_time_twenty">20c</string>
   <string name="ramp_up_time_thirty">30c</string>
   <string name="ramp_up_time_sixty">60c</string>
+  <string name="ramp_up_time_five">5с</string>
+  <string name="ramp_up_time_fifteen">15с</string>
   
   <string name="force_safe_media_volume_disabled_title">Отключить безопасную проверку звука</string>
   <string name="force_safe_media_volume_disabled_summary">Не ограничивать громкость медиа для наушников</string>
+  
+  <!-- Manual provisioning support -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> сейчас <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+  <string name="sim_enabled">включена</string>
+  <string name="sim_disabled">отключена</string>
+  <string name="sim_missing">отсутствует или не исправна</string>
+  <string name="sim_enabler_need_disable_sim">SIM карта будет деактивирована. Вы хотите продолжить?</string>
+  <string name="sim_enabler_will_disable_sim_title">Внимание</string>
+  <string name="sim_enabler_need_switch_data_service">Эта SIM будет отключена и SIM <xliff:g id="slotid">%1$s</xliff:g> будет использована для передачи данных. Вы уверены, что хотите продолжить?</string>
+  <string name="sim_enabler_airplane_on">Невозможно выполнить операцию, когда включен режим полета.</string>
+  <string name="sim_enabler_in_call">Невозможно выполнить операцию во время звонка.</string>
+  <string name="sim_enabler_both_inactive">Невозможно отключить все SIM-карты</string>
+  <string name="sim_enabler_enabling">Активация\u2026</string>
+  <string name="sim_enabler_disabling">Деактивация\u2026</string>
+  <string name="sub_activate_success">SIM активирована.</string>
+  <string name="sub_activate_failed">Активация не удалось.</string>
+  <string name="sub_deactivate_success">SIM деактивирована.</string>
+  <string name="sub_deactivate_failed">Деактиванция не удалась.</string>
+  
+  <string name="force_ambient_for_media_pref_title">Музыкальный тикер на активном экране</string>
+  <string name="force_ambient_for_media_off">Отключен</string>
+  <string name="force_ambient_for_media_on">Включен</string>
+  <string name="force_ambient_for_media_on_forced">Включен принудительно</string>
+  <string name="force_ambient_for_media_on_forced_clean">Включен минимально-принудительно</string>
+  <string name="ambient_ticker_footer">Музыкальный тикер позволяет отображать текущую информацию музыкальной дорожки на экране блокировки с включенным или включенным активным экраном.\nВы можете выбрать один из двух типов: нормальный и минимальный. Хотя эта функция использует активный дисплей, она не зависит от него.</string>
 </resources>
