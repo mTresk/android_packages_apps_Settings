@@ -28,16 +28,34 @@
     </string-array>
 
     <string-array name="increasing_ring_ramp_up_entries" translatable="false">
+        <item>@string/ramp_up_time_five</item>
         <item>@string/ramp_up_time_ten</item>
+        <item>@string/ramp_up_time_fifteen</item>
         <item>@string/ramp_up_time_twenty</item>
         <item>@string/ramp_up_time_thirty</item>
         <item>@string/ramp_up_time_sixty</item>
     </string-array>
 
     <string-array name="increasing_ring_ramp_up_values" translatable="false">
+        <item>5</item>
         <item>10</item>
+        <item>15</item>
         <item>20</item>
         <item>30</item>
         <item>60</item>
+    </string-array>
+
+    <string-array name="force_ambient_for_media_entries">
+        <item>@string/force_ambient_for_media_off</item>
+        <item>@string/force_ambient_for_media_on</item>
+        <item>@string/force_ambient_for_media_on_forced</item>
+        <item>@string/force_ambient_for_media_on_forced_clean</item>
+    </string-array>
+
+    <string-array name="force_ambient_for_media_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 </resources>

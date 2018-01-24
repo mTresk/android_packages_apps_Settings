@@ -86,6 +86,8 @@
     <string name="ramp_up_time_twenty">20s</string>
     <string name="ramp_up_time_thirty">30s</string>
     <string name="ramp_up_time_sixty">60s</string>
+    <string name="ramp_up_time_five">5s</string>
+    <string name="ramp_up_time_fifteen">15s</string>
 
     <string name="force_safe_media_volume_disabled_title">Disable safe volume check</string>
     <string name="force_safe_media_volume_disabled_summary">Dont limit media volume for headsets</string>
@@ -107,4 +109,11 @@
     <string name="sub_activate_failed">Activation failed.</string>
     <string name="sub_deactivate_success">SIM deactivated.</string>
     <string name="sub_deactivate_failed">Deactivation failed.</string>
+
+    <string name="force_ambient_for_media_pref_title">Ambient Music Ticker</string>
+    <string name="force_ambient_for_media_off">Disabled</string>
+    <string name="force_ambient_for_media_on">Enabled</string>
+    <string name="force_ambient_for_media_on_forced">Enabled and forced</string>
+    <string name="force_ambient_for_media_on_forced_clean">Enabled and forced minimal</string>
+    <string name="ambient_ticker_footer">Ambient Music Ticker allows for the ability to show the current music track info on the lockscreen with or without Ambient display enabled.\nYou can select from two layouts, normal and minimal. While this feature takes advantage of ambient display, it does not depend on it.</string>
 </resources>

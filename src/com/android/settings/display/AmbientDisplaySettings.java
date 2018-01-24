@@ -17,6 +17,7 @@
 package com.android.settings.display;
 
 import android.content.Context;
+import android.os.Bundle;
 import android.os.UserHandle;
 import android.provider.SearchIndexableResource;
 
@@ -61,6 +62,7 @@ public class AmbientDisplaySettings extends DashboardFragment {
                 MY_USER_ID, KEY_AMBIENT_DISPLAY_DOUBLE_TAP));
         controllers.add(new PickupGesturePreferenceController(context, lifecycle, config,
                 MY_USER_ID, KEY_AMBIENT_DISPLAY_PICK_UP));
+        controllers.add(new AmbientDisplayMusicController(context));
         return controllers;
     }
 
@@ -85,6 +87,12 @@ public class AmbientDisplaySettings extends DashboardFragment {
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.AMBIENT_DISPLAY_SETTINGS;
+    }
+
+    @Override
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
+        mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.ambient_ticker_footer);
     }
 
     public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
