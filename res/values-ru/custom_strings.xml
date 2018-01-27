@@ -105,4 +105,6 @@
   <string name="force_ambient_for_media_on_forced">Включен принудительно</string>
   <string name="force_ambient_for_media_on_forced_clean">Включен минимально-принудительно</string>
   <string name="ambient_ticker_footer">Музыкальный тикер позволяет отображать текущую информацию музыкальной дорожки на экране блокировки с включенным или включенным активным экраном.\nВы можете выбрать один из двух типов: нормальный и минимальный. Хотя эта функция использует активный дисплей, она не зависит от него.</string>
+  <string name="heads_up_notifications_enabled_title">Разрешить просмотр</string>
+  <string name="heads_up_notifications_enabled_summary">Разрешить или запретить просмотр всех уведомлений</string>
 </resources>
