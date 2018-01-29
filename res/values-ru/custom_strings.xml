@@ -107,4 +107,17 @@
   <string name="ambient_ticker_footer">Музыкальный тикер позволяет отображать текущую информацию музыкальной дорожки на экране блокировки с включенным или включенным активным экраном.\nВы можете выбрать один из двух типов: нормальный и минимальный. Хотя эта функция использует активный дисплей, она не зависит от него.</string>
   <string name="heads_up_notifications_enabled_title">Разрешить просмотр</string>
   <string name="heads_up_notifications_enabled_summary">Разрешить или запретить просмотр всех уведомлений</string>
+  <!-- Less Notification sounds -->
+  <string name="less_notification_sounds_title">Менее частые звуки уведомления</string>
+  <string name="less_notification_sounds_summary">Воспроизводите звук уведомления каждого приложения только один раз за установленный период времени</string>
+  <string name="less_notification_sounds_default">Поведение по умолчанию</string>
+  <string name="less_notification_sounds_3s">Каждые 3 секунды</string>
+  <string name="less_notification_sounds_5s">Каждые 5 секунд</string>
+  <string name="less_notification_sounds_10s">Каждые 10 секунд</string>
+  <string name="less_notification_sounds_15s">Каждые 15 секунд</string>
+  <string name="less_notification_sounds_30s">Каждые 30 секунд</string>
+  <string name="less_notification_sounds_45s">Каждые 45 секунд</string>
+  <string name="less_notification_sounds_1m">Каждую минуту</string>
+  <string name="less_notification_sounds_2m">Каждые 2 минуты</string>
+  <string name="less_notification_sounds_5m">Каждые 5 минут</string>
 </resources>
