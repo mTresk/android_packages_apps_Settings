@@ -9011,7 +9011,7 @@
     <!-- Name of setting for switching device theme [CHAR LIMIT=60] -->
     <string name="device_theme">Device theme</string>
     <!-- Name of default device theme [CHAR LIMIT=60] -->
-    <string name="default_theme">Default</string>
+    <string name="default_theme">Pixel</string>
     <!-- Temporary reboot string, will be removed -->
     <string name="change_theme_reboot" translatable="false">Changing the theme requires a restart.</string>
 
