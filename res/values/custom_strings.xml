@@ -41,4 +41,8 @@
     <string name="custom_light_off_time_title">Light OFF time during led pulse (ms)"</string>
     <string name="value_equals_default">def</string>
     <string name="show_light_on_zen_title">Blink during Do Not Disturb</string>
+
+    <!-- Pixel color on sim card -->
+    <string name="pixel_sim_color">Pixel</string>
+
 </resources>
