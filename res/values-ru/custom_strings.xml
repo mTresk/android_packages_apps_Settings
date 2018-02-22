@@ -20,7 +20,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="style_settings_title">Стиль</string>
-  <string name="header_category_omni">Настройки Omni</string>
+  <string name="header_category_omni">Настройки Pixel Addict</string>
   <string name="omni_dashboard_summary">Дополнительные настройки</string>
   <string name="style_settings_summary">Стиль системы и другое</string>
   <string name="omni_device_parts">Возможности устройства</string>
@@ -28,7 +28,7 @@
   <string name="hide_summary_menu">Скрыть содержание</string>
   <string name="bars_settings_title">Панели и экран блокировки</string>
   <string name="button_settings_title">Кнопки</string>
-  <string name="mod_version">Версия Omni</string>
+  <string name="mod_version">Версия Pixel Addict</string>
   <string name="mod_version_default">Неизвестно</string>
   <string name="more_settings_title">Ещё</string>
   <string name="global_actions_title">Меню кнопки питания</string>
