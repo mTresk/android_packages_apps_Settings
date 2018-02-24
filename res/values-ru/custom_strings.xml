@@ -119,4 +119,8 @@
   <string name="ramp_up_time_thirty">30 сек.</string>
   <string name="ramp_up_time_sixty">60 сек.</string>
   <string name="notification_log_summary">Показать журнал истории уведомлений</string>
+  <string name="select_default_usb_configuration_title">Выбрать конфигурацию USB по умолчанию</string>
+  <string name="select_default_usb_configuration_dialog_title">Выбрать конфигурацию USB</string>
+  <string name="default_usb_configuration" translatable="false" >по умолчанию</string>
+  <string name="select_usb_default_confguration_warning">ПРЕДУПРЕЖДЕНИЕ: Конфигурация USB по умолчанию также включена, когда устройство заблокировано!\n\nВы действительно хотите включить эту конфигурацию?</string>
 </resources>
