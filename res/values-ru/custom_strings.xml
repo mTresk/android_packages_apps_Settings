@@ -126,11 +126,6 @@
   <string name="usb_paranoia_connect_title">Безопасное подключение USB</string>
   <string name="usb_paranoia_connect_summary">Включать только зарядку, когда USB подключен при заблокированном экране</string>
   <string name="usb_category_title">USB</string>
-  <string name="ambient_display_show_battery_cat">Заряд батареи</string>
-  <string name="ambient_display_show_battery_icon">Включить</string>
-  <string name="ambient_display_show_battery_icon_summary">Показывать индикатор батареи на активном экране</string>
-  <string name="ambient_display_show_battery_percent">Проценты</string>
-  <string name="ambient_display_show_battery_percent_summary">Показывать процент заряда на активном экране</string>
   <string name="ambient_display_category_other">Разное</string>
   <string name="ambient_doze_auto_brightness_title">Автояркость активного экрана</string>
   <string name="ambient_doze_auto_brightness_summary">Использовать автояркость для активного экрана</string>

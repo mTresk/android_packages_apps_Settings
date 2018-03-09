@@ -26,7 +26,7 @@
             android:key="ambient_display_always_on"
             android:title="@string/doze_always_on_title"
             android:summary="@string/doze_always_on_summary" />
-            
+
         <SwitchPreference
             android:key="ambient_display_notification"
             android:title="@string/doze_title"
@@ -43,26 +43,7 @@
             android:fragment="com.android.settings.gestures.PickupGestureSettings" />
 
     </PreferenceCategory>
-
-    <PreferenceCategory
-            android:key="ambient_display_battery_status"
-            android:title="@string/ambient_display_show_battery_cat">
-
-        <SwitchPreference
-            android:key="ambient_display_show_battery"
-            android:title="@string/ambient_display_show_battery_icon"
-            android:summary="@string/ambient_display_show_battery_icon_summary"
-            android:defaultValue="true"/>
-
-        <SwitchPreference
-            android:key="ambient_display_show_battery_text"
-            android:title="@string/ambient_display_show_battery_percent"
-            android:summary="@string/ambient_display_show_battery_percent_summary"
-            android:dependency="ambient_display_show_battery"
-            android:defaultValue="true"/>
-
-    </PreferenceCategory>
-
+  
     <PreferenceCategory
             android:title="@string/ambient_display_category_other">
 
@@ -70,7 +51,6 @@
             android:key="ambient_doze_auto_brightness"
             android:title="@string/ambient_doze_auto_brightness_title"
             android:summary="@string/ambient_doze_auto_brightness_summary" />
-
 
         <ListPreference
             android:key="force_ambient_for_media"
@@ -80,5 +60,4 @@
             android:persistent="false" />
 
     </PreferenceCategory>
-
 </PreferenceScreen>
