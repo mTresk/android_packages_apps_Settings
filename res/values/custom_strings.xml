@@ -75,9 +75,6 @@
 
     <string name="screenshot_shutter_sound_title">Screenshot shutter sound</string>
 
-    <string name="heads_up_notifications_enabled_title">Allow peeking</string>
-    <string name="heads_up_notifications_enabled_summary">Allow or disable peeking for all notifications</string>
-
     <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
     <string name="increasing_ring_ramp_up_title">Ramp-up time to ring volume</string>
     <string name="increasing_ring_volume_option_summary">Increase ring volume to selected volume</string>
