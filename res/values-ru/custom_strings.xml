@@ -113,6 +113,7 @@
   <string name="heads_up_notifications_enabled_summary">Разрешить или запретить всплывающие уведомления</string>
   <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
   <string name="increasing_ring_ramp_up_title">Время нарастания громкости</string>
+  <string name="increasing_ring_volume_option_summary">Увеличить громкость звонка до выбранного уровня</string>
   <string name="ramp_up_time_ten">10 сек.</string>
   <string name="ramp_up_time_twenty">20 сек.</string>
   <string name="ramp_up_time_thirty">30 сек.</string>
@@ -130,4 +131,8 @@
   <string name="ambient_display_show_battery_icon_summary">Показывать индикатор батареи на активном экране</string>
   <string name="ambient_display_show_battery_percent">Проценты</string>
   <string name="ambient_display_show_battery_percent_summary">Показывать процент заряда на активном экране</string>
+
+  <!-- Scramble PIN layout when unlocking -->
+  <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
+  <string name="unlock_scramble_pin_layout_summary">Перемещать кнопки ввода PIN-кода в случайном порядке</string>
 </resources>
