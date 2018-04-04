@@ -72,24 +72,6 @@
   <string name="force_safe_media_volume_disabled_title">Отключить безопасную проверку звука</string>
   <string name="force_safe_media_volume_disabled_summary">Не ограничивать громкость медиа для наушников</string>
   
-  <!-- Manual provisioning support -->
-  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> сейчас <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-  <string name="sim_enabled">включена</string>
-  <string name="sim_disabled">отключена</string>
-  <string name="sim_missing">отсутствует или не исправна</string>
-  <string name="sim_enabler_need_disable_sim">SIM карта будет деактивирована. Вы хотите продолжить?</string>
-  <string name="sim_enabler_will_disable_sim_title">Внимание</string>
-  <string name="sim_enabler_need_switch_data_service">Эта SIM будет отключена и SIM <xliff:g id="slotid">%1$s</xliff:g> будет использована для передачи данных. Вы уверены, что хотите продолжить?</string>
-  <string name="sim_enabler_airplane_on">Невозможно выполнить операцию, когда включен режим полета.</string>
-  <string name="sim_enabler_in_call">Невозможно выполнить операцию во время звонка.</string>
-  <string name="sim_enabler_both_inactive">Невозможно отключить все SIM-карты</string>
-  <string name="sim_enabler_enabling">Активация\u2026</string>
-  <string name="sim_enabler_disabling">Деактивация\u2026</string>
-  <string name="sub_activate_success">SIM активирована.</string>
-  <string name="sub_activate_failed">Активация не удалось.</string>
-  <string name="sub_deactivate_success">SIM деактивирована.</string>
-  <string name="sub_deactivate_failed">Деактиванция не удалась.</string>
-  
   <string name="force_ambient_for_media_pref_title">Музыкальный тикер на активном экране</string>
   <string name="force_ambient_for_media_off">Отключен</string>
   <string name="force_ambient_for_media_on">Включен</string>
@@ -118,21 +100,39 @@
   <string name="ramp_up_time_twenty">20 сек.</string>
   <string name="ramp_up_time_thirty">30 сек.</string>
   <string name="ramp_up_time_sixty">60 сек.</string>
-  <string name="notification_log_summary">Показать журнал истории уведомлений</string>
-  <string name="select_default_usb_configuration_title">Выбрать конфигурацию USB по умолчанию</string>
-  <string name="select_default_usb_configuration_dialog_title">Выбрать конфигурацию USB</string>
-  <string name="default_usb_configuration" translatable="false" >по умолчанию</string>
-  <string name="select_usb_default_confguration_warning">ПРЕДУПРЕЖДЕНИЕ: Конфигурация USB по умолчанию также включена, когда устройство заблокировано!\n\nВы действительно хотите включить эту конфигурацию?</string>
-  <string name="usb_paranoia_connect_title">Безопасное подключение USB</string>
-  <string name="usb_paranoia_connect_summary">Включать только зарядку, когда USB подключен при заблокированном экране</string>
-  <string name="usb_category_title">USB</string>
   <string name="ambient_display_show_battery_cat">Заряд батареи</string>
   <string name="ambient_display_show_battery_icon">Включить</string>
   <string name="ambient_display_show_battery_icon_summary">Показывать индикатор батареи на активном экране</string>
   <string name="ambient_display_show_battery_percent">Проценты</string>
   <string name="ambient_display_show_battery_percent_summary">Показывать процент заряда на активном экране</string>
-
   <!-- Scramble PIN layout when unlocking -->
   <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
   <string name="unlock_scramble_pin_layout_summary">Перемещать кнопки ввода PIN-кода в случайном порядке</string>
+  <!-- Manual provisioning support -->
+  <string name="sim_enabled">включена</string>
+  <string name="sim_disabled">отключена</string>
+  <string name="sim_missing">отсутствует или неисправна</string>
+  <string name="sim_enabler_need_disable_sim">SIM-карта будет деактивирована. Вы хотите продолжить?</string>
+  <string name="sim_enabler_will_disable_sim_title">Внимание!</string>
+  <string name="sim_enabler_need_switch_data_service">Эта SIM будет отключена, и SIM <xliff:g id="slotid">%1$s</xliff:g> будет использоваться для передачи данных. Вы уверены, что вы хотите продолжить?</string>
+  <string name="sim_enabler_airplane_on">Не возможно выполнить операцию, пока включен режим полета.</string>
+  <string name="sim_enabler_in_call">Не возможно выполнить операцию при звонке.</string>
+  <string name="sim_enabler_both_inactive">Невозможно отключить все SIM-карты</string>
+  <string name="sim_enabler_enabling">Активация\u2026</string>
+  <string name="sim_enabler_disabling">Деактивация\u2026</string>
+  <string name="sub_activate_success">SIM-карта активирована.</string>
+  <string name="sub_activate_failed">Ошибка активации.</string>
+  <string name="sub_deactivate_success">SIM-карта деактивирована.</string>
+  <string name="sub_deactivate_failed">Ошибка деактивации.</string>
+
+  <string name="notification_log_summary">Показать журнал уведомлений</string>
+  <string name="select_default_usb_configuration_title">Выберите конфигурацию USB по умолчанию</string>
+  <string name="select_default_usb_configuration_dialog_title">Выберите конфигурацию USB</string>
+  <string name="select_usb_default_confguration_warning">Внимание: Конфигурация USB по-умолчанию включена даже когда устройство заблокировано!\n\nВы действительно хотите включить эту конфигурацию?</string>
+  <string name="usb_paranoia_connect_title">Безопасное USB подключение</string>
+  <string name="usb_paranoia_connect_summary">Включать только зарядку, когда кабель подключен при заблокированном устройстве</string>
+  <string name="usb_category_title">USB</string>
+
+  <string name="battery_saver_system_bars_color_enable_title">Цвет фона системных панелей</string>
+  <string name="battery_saver_system_bars_color_enable_summary">Использовать другой цвет для панелей статуса и навигации, когда включена функция экономии заряда батареи</string>
 </resources>
