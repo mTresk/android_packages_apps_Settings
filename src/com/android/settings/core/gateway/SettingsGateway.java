@@ -147,6 +147,7 @@ import org.omnirom.omnigears.moresettings.OmniJawsSettings;
 import org.omnirom.omnigears.service.EventServiceSettings;
 import org.omnirom.omnigears.interfacesettings.LockscreenSettings;
 import org.omnirom.omnigears.interfacesettings.LockscreenItemSettings;
+import org.omnirom.omnigears.SmartPixels;
 
 public class SettingsGateway {
 
@@ -285,7 +286,8 @@ public class SettingsGateway {
             NetworkTraffic.class.getName(),
             EventServiceSettings.class.getName(),
             LockscreenSettings.class.getName(),
-            LockscreenItemSettings.class.getName()
+            LockscreenItemSettings.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -339,6 +341,7 @@ public class SettingsGateway {
             Settings.NetworkTrafficSettingsActivity.class.getName(),
             Settings.EventServiceSettingsActivity.class.getName(),
             Settings.LockscreenSettingsActivity.class.getName(),
-            Settings.LockscreenItemSettingsActivity.class.getName()
+            Settings.LockscreenItemSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName()
     };
 }
