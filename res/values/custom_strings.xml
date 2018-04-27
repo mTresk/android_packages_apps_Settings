@@ -164,4 +164,7 @@
     <!-- [CHAR LIMIT=60] -->
     <string name="fingerprint_swipe_to_dismiss_suggestion_summary">Swipe left or right on the fingerprint sensor</string>
 
+    <!-- Search -->
+    <string name="menu_search">Search apps</string>
+    <string name="menu_search_hint">Search apps...</string>
 </resources>

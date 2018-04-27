@@ -148,4 +148,7 @@
   <string name="fingerprint_swipe_to_dismiss_suggestion_title">Быстрая отмена уведомлений</string>
   <!-- [CHAR LIMIT=60] -->
   <string name="fingerprint_swipe_to_dismiss_suggestion_summary">Проведите пальцем по датчику отпечатка пальца влево или вправо</string>
+      <!-- Search -->
+  <string name="menu_search">Поиск приложений</string>
+  <string name="menu_search_hint">Найти приложения...</string>
 </resources>
