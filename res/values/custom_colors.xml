@@ -13,7 +13,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-
 <resources>
+        <!-- Security Dialog -->
+        <color name="BottomBarBackgroundColor">@android:color/white</color>
+
 	<color name="omni_logo_color">#a1c729</color>
 </resources>
