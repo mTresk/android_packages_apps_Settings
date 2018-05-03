@@ -73,14 +73,14 @@
   <string name="force_safe_media_volume_disabled_summary">Не ограничивать громкость медиа для наушников</string>
   
   <string name="force_ambient_for_media_pref_title">Музыкальный тикер на активном экране</string>
-  <string name="force_ambient_for_media_off">Отключен</string>
-  <string name="force_ambient_for_media_on">Включен</string>
-  <string name="force_ambient_for_media_on_forced">Включен принудительно</string>
-  <string name="force_ambient_for_media_on_forced_clean">Включен минимально-принудительно</string>
+  <string name="force_ambient_for_media_off">Отключено</string>
+  <string name="force_ambient_for_media_on">Включено</string>
+  <string name="force_ambient_for_media_on_forced">Включено принудительно</string>
+  <string name="force_ambient_for_media_on_forced_clean">Включено минимально-принудительно</string>
   <string name="ambient_ticker_footer">Музыкальный тикер позволяет отображать текущую информацию музыкальной дорожки на экране блокировки с включенным или включенным активным экраном.\nВы можете выбрать один из двух типов: нормальный и минимальный. Хотя эта функция использует активный дисплей, она не зависит от него.</string>
   <!-- Less Notification sounds -->
-  <string name="less_notification_sounds_title">Менее частые звуки уведомления</string>
-  <string name="less_notification_sounds_summary">Воспроизводите звук уведомления каждого приложения только один раз за установленный период времени</string>
+  <string name="less_notification_sounds_title">Уменьшить частоту звуков уведомлений</string>
+  <string name="less_notification_sounds_summary">Воспроизводить звук уведомления каждого приложения только один раз за установленный период времени</string>
   <string name="less_notification_sounds_default">Поведение по умолчанию</string>
   <string name="less_notification_sounds_3s">Каждые 3 секунды</string>
   <string name="less_notification_sounds_5s">Каждые 5 секунд</string>
@@ -109,6 +109,7 @@
   <string name="unlock_scramble_pin_layout_title">Перемешивать кнопки</string>
   <string name="unlock_scramble_pin_layout_summary">Перемещать кнопки ввода PIN-кода в случайном порядке</string>
   <!-- Manual provisioning support -->
+  <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> is <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
   <string name="sim_enabled">включена</string>
   <string name="sim_disabled">отключена</string>
   <string name="sim_missing">отсутствует или неисправна</string>
@@ -124,7 +125,6 @@
   <string name="sub_activate_failed">Ошибка активации.</string>
   <string name="sub_deactivate_success">SIM-карта деактивирована.</string>
   <string name="sub_deactivate_failed">Ошибка деактивации.</string>
-
   <string name="notification_log_summary">Показать журнал уведомлений</string>
   <string name="select_default_usb_configuration_title">Выберите конфигурацию USB по умолчанию</string>
   <string name="select_default_usb_configuration_dialog_title">Выберите конфигурацию USB</string>
@@ -132,7 +132,7 @@
   <string name="usb_paranoia_connect_title">Безопасное USB подключение</string>
   <string name="usb_paranoia_connect_summary">Включать только зарядку, когда кабель подключен при заблокированном устройстве</string>
   <string name="usb_category_title">USB</string>
-
+  
   <string name="battery_saver_system_bars_color_enable_title">Цвет фона системных панелей</string>
   <string name="battery_saver_system_bars_color_enable_summary">Использовать другой цвет для панелей статуса и навигации, когда включена функция экономии заряда батареи</string>
   <!-- Font picker -->
