@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2007 The Android Open Source Project
+<!--
+     Copyright (C) 2017 The Nitrogen Project
+     Copyright (C) 2017 The Liquid Remix Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,8 +16,10 @@
      limitations under the License.
 -->
 <resources>
-        <!-- Security Dialog -->
-        <color name="BottomBarBackgroundColor">@android:color/white</color>
 
-	<color name="omni_logo_color">#a1c729</color>
+    <!-- Tuner theme -->
+    <style name="SecurityDialog" parent="@*android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar.MinWidth">
+        <item name="android:windowBackground">@drawable/security_dialog_corners</item>
+    </style>
+
 </resources>
