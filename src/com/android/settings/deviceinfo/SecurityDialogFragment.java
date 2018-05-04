@@ -94,6 +94,6 @@ public class SecurityDialogFragment extends InstrumentedDialogFragment {
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.LIQUID;
+        return MetricsProto.MetricsEvent.OMNI_SETTINGS;
     }
 }
