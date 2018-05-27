@@ -32,7 +32,7 @@
         android:summary="@string/unlock_scramble_pin_layout_summary"
         android:defaultValue="false" />
 
-    <org.omnirom.omnigears.preference.SystemSettingSwitchPreference
+    <org.omnirom.omnilib.preference.SystemSettingSwitchPreference
         android:key="lockscreen_quick_unlock_control"
         android:title="@string/unlock_quick_unlock_control_title"
         android:summary="@string/unlock_quick_unlock_control_summary" 
