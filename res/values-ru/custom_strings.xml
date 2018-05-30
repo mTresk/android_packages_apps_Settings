@@ -143,10 +143,10 @@
   <string name="font_picker_progress">Установка шрифта\u2026</string>
 
   <!-- [CHAR LIMIT=80]-->
-  <string name="fp_swipe_to_dismiss_notifications_title">Проведите пальцем по сканнеру отпечатка пальца влево или вправо, чтобы отклонить уведомления</string>
-  <string name="fp_swipe_to_dismiss_notifications_pref_title">Проведите пальцем по сканнеру отпечатков пальца влево или вправо</string>
+  <string name="fp_swipe_to_dismiss_notifications_title">Проведите пальцем по сканеру отпечатка пальца влево или вправо, чтобы отклонить уведомления</string>
+  <string name="fp_swipe_to_dismiss_notifications_pref_title">Проведите пальцем по сканеру отпечатков пальца влево или вправо</string>
   <!--  [CHAR LIMIT=160]-->
-  <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы отклонить ваши уведомления, проведите пальцем влево или вправо по сканнеру отпечатка пальца на задней панели телефона.</string>
+  <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы отклонить ваши уведомления, проведите пальцем влево или вправо по сканеру отпечатка пальца на задней панели телефона.</string>
   <!-- [CHAR LIMIT=60] -->
   <string name="fingerprint_swipe_to_dismiss_suggestion_title">Быстрая отмена уведомлений</string>
   <!-- [CHAR LIMIT=60] -->
