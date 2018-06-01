@@ -151,7 +151,27 @@
   <string name="fingerprint_swipe_to_dismiss_suggestion_title">Быстрая отмена уведомлений</string>
   <!-- [CHAR LIMIT=60] -->
   <string name="fingerprint_swipe_to_dismiss_suggestion_summary">Проведите пальцем по датчику отпечатка пальца влево или вправо</string>
-      <!-- Search -->
+  <!-- Search -->
   <string name="menu_search">Поиск приложений</string>
   <string name="menu_search_hint">Найти приложения...</string>
+  <!-- Heads up snooze -->
+  <string name="heads_up_category">Всплывающие уведомления</string>
+  <string name="heads_up_snooze_title">Таймер отсрочки всплывающих уведомлений</string>
+  <string name="heads_up_snooze_disabled_summary">Таймер отсрочки выключен</string>
+  <string name="heads_up_snooze_1min">1 минута</string>
+  <string name="heads_up_snooze_5min">5 минут</string>
+  <string name="heads_up_snooze_10min">10 минут</string>
+  <string name="heads_up_snooze_15min">15 минут</string>
+  <string name="heads_up_snooze_20min">20 минут</string>
+
+  <!-- Heads up timeout -->
+  <string name="heads_up_time_out_title">Таймаут всплывающих уведомлений</string>
+  <string name="heads_up_time_out_2sec">2 секунды</string>
+  <string name="heads_up_time_out_4sec">4 секунды</string>
+  <string name="heads_up_time_out_5sec">5 секунд</string>
+  <string name="heads_up_time_out_6sec">6 секунд</string>
+  <string name="heads_up_time_out_8sec">8 секунд</string>
+  <string name="heads_up_time_out_10sec">10 секунд</string>
+
+  <string name="log_category">История уведомлений</string>
 </resources>
