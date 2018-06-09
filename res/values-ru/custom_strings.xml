@@ -49,6 +49,8 @@
   <string name="adb_over_network_summary">Включить отладку TCP/IP через сетевые интерфейсы (Wi-Fi, USB-сети). Эта установка сбрасывается при перезагрузке</string>
   <!-- Warning for Adb over Network -->
   <string name="adb_over_network_warning">ВНИМАНИЕ: когда включена отладка по сети, устройство открыто для неконтролируемого доступа из всех подключённых сетей!\n\nИспользуйте эту функцию только тогда, когда вы подключены к доверенным сетям.\n\nВы действительно хотите включить эту функцию?</string>
+  <string name="adb_over_network_disable_on_disconnect_title">Выключить отладку по сети при отключении</string>
+  <string name="adb_over_network_disable_on_disconnect_summary">Отладка по сети будет выключена при отключении от Wi-Fi</string>
   <string name="battery_image">Отображение иконки батареи</string>
   <string name="battery_image_description">Отображать иконку батареи в строке состояния</string>
   <string name="twilight_mode_location_dialog">Местоположение отключено</string>
