@@ -177,6 +177,6 @@
 
   <string name="log_category">История уведомлений</string>
 
-  <string name="app_package_name_title">Пакет</string>
+  <string name="app_package_name_title">Имя пакета</string>
   <string name="app_version_title">Версия</string>
 </resources>
