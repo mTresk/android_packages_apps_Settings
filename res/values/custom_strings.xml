@@ -45,4 +45,6 @@
     <!-- Pixel color on sim card -->
     <string name="pixel_sim_color">Pixel</string>
 
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+
 </resources>
