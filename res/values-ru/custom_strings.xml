@@ -202,4 +202,9 @@
   <string name="ambient_play_history_menu_remove_all">Удалить все</string>
   <string name="ambient_play_history_menu_add_to_home">Добавить на главный экран</string>
   <string name="ambient_play_history_dialog_remove_all_confirmation">Вы уверены?</string>
+
+  <!-- Weather -->
+  <string name="weather_unit">Единица измерения температуры</string>
+  <string name="weather_unit_metric" translatable="false">Цельсий</string>
+  <string name="weather_unit_imperial" translatable="false">Фаренгейт</string>
 </resources>
