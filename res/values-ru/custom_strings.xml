@@ -183,4 +183,23 @@
   <!-- Battery stats reset -->
   <string name="battery_stats_reset">Сброс статистики</string>
   <string name="battery_stats_message">История использования батареи будет удалена</string>
+
+  <!-- Ambient Play -->
+  <string name="ambient_play_summary">Показать песни поблизости</string>
+  <string name="ambient_play_lockscreen_title">Показывать песни на экране блокировки</string>
+  <string name="ambient_play_notifications_title">Уведомления</string>
+  <string name="ambient_play_switch_bar_on">Включено</string>
+  <string name="ambient_play_switch_bar_off">Выключено</string>
+  <string name="ambient_play_help_text">Когда музыка играет поблизости, вы можете увидеть название песни и исполнителя. Время работы от батареи может уменьшиться и будет использован траффик, если функция включена.</string>
+  <string name="ambient_play_history">История \"Сейчас играет\"</string>
+  <string name="ambient_play_loading_data">Данные загружаются…</string>
+  <string name="ambient_play_history_today">Сегодня</string>
+  <string name="ambient_play_history_yesterday">Вчера</string>
+  <string name="ambient_play_history_dialog_play">Играть сейчас</string>
+  <string name="ambient_play_history_dialog_search">Искать в сети</string>
+  <string name="ambient_play_history_dialog_remove">Удалить</string>
+  <string name="ambient_play_history_empty">История музыки пуста</string>
+  <string name="ambient_play_history_menu_remove_all">Удалить все</string>
+  <string name="ambient_play_history_menu_add_to_home">Добавить на главный экран</string>
+  <string name="ambient_play_history_dialog_remove_all_confirmation">Вы уверены?</string>
 </resources>
