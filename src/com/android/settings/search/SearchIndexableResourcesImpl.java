@@ -105,12 +105,12 @@ import java.util.Set;
 
 import org.omnirom.omnigears.OmniDashboardFragment;
 import org.omnirom.omnigears.ButtonSettings;
+import org.omnirom.omnigears.interfacesettings.BarsSettings;
 import org.omnirom.omnigears.ButtonBrightnessSettings;
 import org.omnirom.omnigears.batterylight.BatteryLightSettings;
 import org.omnirom.omnigears.interfacesettings.NetworkTraffic;
 import org.omnirom.omnigears.interfacesettings.StyleSettings;
 import org.omnirom.omnigears.moresettings.MoreSettings;
-import org.omnirom.omnigears.moresettings.OmniJawsSettings;
 
 public class SearchIndexableResourcesImpl implements SearchIndexableResources {
 
@@ -211,7 +211,6 @@ public class SearchIndexableResourcesImpl implements SearchIndexableResources {
         addIndex(org.omnirom.omnigears.GestureSettings.class);
         addIndex(BarsSettings.class);
         addIndex(BatteryLightSettings.class);
-        addIndex(OmniJawsSettings.class);
         addIndex(NetworkTraffic.class);
     }
 
