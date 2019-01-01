@@ -219,4 +219,8 @@
 
   <!-- Volume link notification -->
   <string name="volume_link_notification_title">Объединить громкость звонка и сообщений</string>
+
+  <!-- AmbientDisplay music ticker -->
+  <string name="force_ambient_for_media_title">Музыкальный тикер</string>
+  <string name="force_ambient_for_media_summary">Показывать информацию о треке на активном экране</string>
 </resources>

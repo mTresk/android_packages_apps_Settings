@@ -148,4 +148,8 @@
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
+
+    <!-- AmbientDisplay music ticker -->
+    <string name="force_ambient_for_media_title">Music Ticker</string>
+    <string name="force_ambient_for_media_summary">Show track info when pulsing and force pulse when new track starts</string>
 </resources>
