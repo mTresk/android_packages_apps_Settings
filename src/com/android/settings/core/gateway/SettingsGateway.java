@@ -137,7 +137,6 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
-import com.android.settings.custom.ambient.history.AmbientPlayHistory;
 
 import org.omnirom.omnigears.OmniDashboardFragment;
 import org.omnirom.omnigears.ButtonSettings;
@@ -283,7 +282,6 @@ public class SettingsGateway {
             GestureSettings.class.getName(),
             BarsSettings.class.getName(),
             BatteryLightSettings.class.getName(),
-            AmbientPlayHistory.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

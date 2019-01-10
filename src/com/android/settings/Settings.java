@@ -171,7 +171,4 @@ public class Settings extends SettingsActivity {
     public static class OmniJawsSettingsActivity extends SettingsActivity { /* empty */ }
     public static class SwipeToNotificationSuggestionActivity extends SettingsActivity { /* empty */ }
 
-    // Ambient play
-    public static class AmbientPlayHistoryActivity extends SettingsActivity { /* empty */ }
-
 }
