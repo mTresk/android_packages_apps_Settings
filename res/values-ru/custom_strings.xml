@@ -212,4 +212,8 @@
   <string name="selinux_status_disabled">Отключено</string>
   <string name="selinux_status_permissive">Только предупреждение</string>
   <string name="selinux_status_enforcing">Блокировка</string>
+
+  <!-- doze on charge -->
+  <string name="doze_on_charge_title">Показывать во время зарядки</string>
+  <string name="doze_on_charge_summary">Включать экран во время зарядки</string>
 </resources>
