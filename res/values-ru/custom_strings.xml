@@ -229,4 +229,7 @@
 
   <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
   <string name="ringtone2_title">Рингтон - SIM 2</string>
+
+  <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+  <string name="status_deep_sleep">(Глубокий сон: %1$d%2$s)</string>
 </resources>
