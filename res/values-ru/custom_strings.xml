@@ -232,4 +232,8 @@
 
   <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
   <string name="status_deep_sleep">(Глубокий сон: %1$d%2$s)</string>
+
+  <!-- Notch: Full screen apps -->
+  <string name="display_cutout_force_fullscreen_title">Приложения в полный экран</string>
+  <string name="display_cutout_force_fullscreen_summary">Приложения будут принудительно игнорировать вырез экрана</string>
 </resources>
